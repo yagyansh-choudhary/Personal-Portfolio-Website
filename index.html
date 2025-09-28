@@ -1,0 +1,126 @@
+<!--
+  section: Web Dev I - Lab Assignment 1
+  project: Personal Portfolio Website
+  page: index.html
+  author: Yagyansh Choudhary
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Yagyansh Choudhary - Portfolio</title>
+</head>
+<body>
+
+  <!-- Skip link -->
+  <a href="#main">Skip to main content</a>
+
+  <!-- Header with navigation -->
+  <header>
+    <h1>Yagyansh Choudhary</h1>
+    <p>Web Developer / Student</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main id="main">
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="https://raw.githubusercontent.com/yagyansh-choudhary/Personal-Portfolio-Website/refs/heads/main/image.jpg" alt="Portrait photo of Yagyansh Choudhary">
+      <p>Hello — I'm Yagyansh Choudhary. I enjoy building web pages that are semantic and accessible. Currently learning HTML basics, semantic tags, and accessibility.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article>
+        <h3>Project One — Personal Landing Page</h3>
+        <p>A single-page portfolio built with semantic HTML.</p>
+      </article>
+
+      <article>
+        <h3>Project Two — To-Do App (Concept)</h3>
+        <p>A simple to-do list prototype using basic JavaScript.</p>
+      </article>
+
+      <article>
+        <h3>Project Three — Course Notes Site</h3>
+        <p>Organized notes and examples for web development labs.</p>
+      </article>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <table border="1">
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+          <th>Notes</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Intermediate</td>
+          <td>Semantic tags, accessibility basics</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Beginner</td>
+          <td>Basic layouts</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Beginner</td>
+          <td>DOM, events</td>
+        </tr>
+        <tr>
+          <td>Git / GitHub</td>
+          <td>Beginner</td>
+          <td>Basic commits and push</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <p>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Send">
+          <input type="reset" value="Reset">
+        </p>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© Yagyansh Choudhary — Web Dev I Lab Assignment 1</p>
+  </footer>
+
+</body>
+</html>
